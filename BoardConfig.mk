@@ -156,3 +156,6 @@ USE_MINIKIN := true
 
 # Include an expanded selection of fonts
 EXTENDED_FONT_FOOTPRINT := true
+
+# Enable ODEX
+WITH_DEXPREOPT := true

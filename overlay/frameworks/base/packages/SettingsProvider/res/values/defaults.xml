@@ -27,5 +27,8 @@
     <bool name="def_haptic_feedback">false</bool>
     <bool name="def_install_non_market_apps">true</bool>
     <bool name="def_vibrate_when_ringing_enabled">true</bool>
+    <bool name="def_notifications_use_ring_volume">false</bool>
+    <bool name="def_sound_effects_enabled">false</bool>
+    <integer name="def_lockscreen_sounds_enabled">0</integer>
 
 </resources>

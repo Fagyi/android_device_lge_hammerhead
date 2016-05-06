@@ -41,6 +41,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/lge/hammerhead/touch_dev.idc:system/usr/idc/touch_dev.idc
 
+# Prebuilt BusyBox-v1.24.2-Stericson
+PRODUCT_COPY_FILES += \
+    device/lge/hammerhead/prebuilt/busybox:system/xbin/busybox
+
 PRODUCT_COPY_FILES += \
     device/lge/hammerhead/audio_policy.conf:system/etc/audio_policy.conf \
     device/lge/hammerhead/mixer_paths.xml:system/etc/mixer_paths.xml

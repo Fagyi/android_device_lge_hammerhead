@@ -346,6 +346,16 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp
 
+# Media settings configuration
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.media.enc.jpeg.quality=100 \
+    ro.media.dec.jpeg.memcap=8000000 \
+    ro.media.enc.hprof.vid.bps=8000000 \
+    ro.config.vc_call_vol_steps=20 \
+    ro.config.media_vol_steps=20 \
+    ro.telephony.call_ring.delay=0 \
+    ring.delay=0
+
 # Request modem to send PLMN name always irrespective
 # of display condition in EFSPN.
 # RIL uses this property.

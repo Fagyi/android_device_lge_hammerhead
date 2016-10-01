@@ -26,7 +26,6 @@
     <!-- Some changes which I want apply on the clean build too -->
     <bool name="def_haptic_feedback">false</bool>
     <bool name="def_install_non_market_apps">true</bool>
-    <bool name="def_vibrate_when_ringing_enabled">true</bool>
     <bool name="def_notifications_use_ring_volume">false</bool>
     <bool name="def_sound_effects_enabled">false</bool>
     <bool name="def_dtmf_tones_enabled">false</bool>
